@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	list-style-type: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right,#3525af, #9153c9);
+}
+
+.res{
+	width: 800px;
+	background: #fff;
+	margin: 25px auto;
+	display: flex;
+}
+
+.left{
+	background: #292b2f;
+	width: 250px;
+	padding: 0 20px;
+}
+
+.right{
+	width: calc(100%-250px);
+}
+.left .img_box{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.left .img_box img{
+	width: 200px;
+	border-radius: 100%;
+}
+
+.pb{
+	padding-bottom: 20px;
+}
+
+.title{
+	font-weight: 700;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding-bottom: 10px;
+	color: #3525af;
+	position: relative;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.title:before{
+	content: "";
+	position: absolute;
+	top: 35px;
+	right: 0;
+	width: 50px;
+	height: 3px;
+	background: #3525af;
+
+}
+
+.left .icon{
+	font-size: 20px;
+	color: #9153c9;
+}
+
+.left .icon .text{ 
+	color: #fff;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.contact .li_box{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contact .li_box .icon{
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact .li_box .text{
+	width: calc(100% - 50px);
+}
+
+.Skills ul, .Hobbies ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.Skills .li_box, .Hobbies .li_box{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	background: rgb(4,0,0);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.Skills .li_box{
+	border:2px solid #55f;
+	color: #5ff;
+}
+.Skills .li_box .text, .Hobbies .li_box .text{
+	margin-top: 5px;
+}
+
+.Hobbies .li_box{
+	border:2px solid #55f;
+}
+
+
+.Hobbies .li_box .icon, .Hobbies .li_box .text{
+	color: #5ff;
+}
+.Skills .li_box:hover{
+	background: #ff4;
+}
+
+.Skills .li_box:hover .icon,.Skills .li_box:hover .text{
+	color: #9153b5;
+}
+
+.Hobbies .li_box:hover{
+	background: #fff;
+}
+
+.Hobbies .li_box:hover .icon,.Hobbies .li_box:hover .text{
+	color: #9153c9;
+}
+
+
+.header{
+	background: #292b2f;
+	padding: 15px 30px;
+	color: #fff;
+	height: 240px;
+}
+
+.header .name{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #3525af;
+}
+
+.header .role{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.header .about{
+	margin-top: 20px;
+	line-height: 26px;
+}
+
+.right_inner .edu{
+	margin-top: 30px;
+}
+
+.right_inner .li_box{
+	display: flex;
+	margin-bottom: 15px;
+}
+.right_inner .li_box .date{
+	width: 120px;
+	color: rgb(210,0,224);
+}
+
+.right_inner .li_box .info{
+	width: calc(100%-120px);
+	padding-left: 25px;
+	position: relative;
+}
+
+.right_inner .li_box .info_{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: rgb(210,0,224);
+}
+
+
+.right_inner .li_box .info_c{
+	font-weight: 300;
+	font-size: 15px;
+	margin-top: 3px;
+}
+
+.right_inner .li_box .info_cou{
+	margin-top: 15px;
+}
+
+.right_inner .li_box .info:before{
+	content: "";
+	position: absolute;top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background:  rgb(210,0,224);
+	border-radius: 50%;
+}
+
+.right_inner .li_box .info:after{
+	content: "";
+	position: absolute;top: 3px;
+	left: 4px;
+	width: 2px;
+	height: 95%;
+	background:  rgb(210,0,224);
+
+}
+
+
+
